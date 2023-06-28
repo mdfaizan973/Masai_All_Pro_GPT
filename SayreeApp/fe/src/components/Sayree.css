@@ -1,0 +1,38 @@
+.input-box {
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  outline: none;
+}
+
+.submit-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.submit-button:hover {
+  background-color: #64ae68;
+}
+
+.shayari {
+  color: red;
+  width: 50%;
+  margin: auto;
+  font-size: 1.5rem;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 30px;
+  border-radius: 20px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+@media screen and (min-width: 100px) and (max-width: 450px) {
+  .shayari {
+    font-size: 1rem;
+  }
+}
